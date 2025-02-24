@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="hero">
         <div class="container">
             <h1>Prabaharan Nagappan</h1>
             <p>Software Engineer | Tamil Nadu, India</p>
@@ -29,8 +29,17 @@
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2>Professional Summary</h2>
-            <p>Results-driven Software Engineer with over 5 years of experience in Python development, automation testing, and full-stack engineering. Proficient in FastAPI, Django, Flask, and cloud platforms like AWS (Lambda, S3) and Google Cloud Platform (GCP). Skilled in API development, database management (MySQL, PostgreSQL, MongoDB), and web scraping. Passionate about delivering scalable, high-quality solutions and continuously learning new technologies to drive innovation.</p>
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Results-driven Software Engineer with over 5 years of experience in Python development, automation testing, and full-stack engineering. Proficient in FastAPI, Django, Flask, and cloud platforms like AWS (Lambda, S3) and Google Cloud Platform (GCP). Skilled in API development, database management, and web scraping. Passionate about delivering scalable, high-quality solutions and continuously learning new technologies.</p>
+                </div>
+                <div class="project-cards">
+                    <div class="card">Python Development</div>
+                    <div class="card">Automation Testing</div>
+                    <div class="card">Full-Stack Engineering</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -38,14 +47,14 @@
     <section id="skills" class="section">
         <div class="container">
             <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> Python (Core Python, FastAPI, Django, Flask)</li>
-                <li><strong>Cloud Platforms:</strong> AWS (Lambda, S3, API Gateway, EC2), Google Cloud Platform (GCP, BigQuery)</li>
-                <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, DynamoDB</li>
-                <li><strong>Tools & Libraries:</strong> Selenium, Appium, Pandas, NumPy, Beautiful Soup, Requests, NLTK, TensorFlow</li>
-                <li><strong>Testing:</strong> Automation Testing, Test Case Design, Software Testing</li>
-                <li><strong>Other Skills:</strong> Web Scraping, Microservices, Data Analysis, CI/CD Pipelines</li>
-            </ul>
+            <div class="skills-grid">
+                <div><strong>Programming:</strong> Python (FastAPI, Django, Flask)</div>
+                <div><strong>Cloud:</strong> AWS (Lambda, S3), GCP (BigQuery)</div>
+                <div><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</div>
+                <div><strong>Tools:</strong> Selenium, Pandas, TensorFlow</div>
+                <div><strong>Testing:</strong> Automation, Test Case Design</div>
+                <div><strong>Other:</strong> Web Scraping, CI/CD</div>
+            </div>
         </div>
     </section>
 
@@ -53,52 +62,31 @@
     <section id="experience" class="section">
         <div class="container">
             <h2>Professional Experience</h2>
-            <div class="job">
-                <h3>Software Engineer (Automation Test Architect)</h3>
-                <p>Lennox India Technology Centre | Mar 2024 - Present | Chennai, Tamil Nadu, India</p>
-                <ul>
-                    <li>Designed and developed automation testing solutions for mobile applications using Selenium and Appium.</li>
-                    <li>Created and maintained test scripts to ensure quality, performance, and reliability.</li>
-                    <li>Integrated automated tests into CI/CD pipelines for seamless deployment.</li>
-                    <li>Managed bug tracking and defect resolution in collaboration with development teams.</li>
-                    <li>Applied strong technical expertise, problem-solving, and clear communication to improve testing efficiency.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Full Stack Engineer</h3>
-                <p>Cinch | Nov 2023 - Jan 2024 | Remote (Singapore)</p>
-                <ul>
-                    <li>Contributed as a Backend FastAPI Developer for a fintech and e-commerce platform.</li>
-                    <li>Collaborated with team members to deliver high-quality solutions for the Samsung project.</li>
-                    <li>Developed and maintained backend APIs, ensuring scalability and performance.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Lead Software Engineer</h3>
-                <p>Meyi Cloud | Apr 2023 - Nov 2023 | Puducherry, India (Hybrid)</p>
-                <ul>
-                    <li>Led backend development and API integration using FastAPI and AWS services (Lambda, API Gateway, EC2).</li>
-                    <li>Managed databases (PostgreSQL, DynamoDB) for real-time order tracking, delivery scheduling, and customer management.</li>
-                    <li>Implemented DevOps practices to streamline deployment and improve system reliability.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Coordinator & Software Engineer</h3>
-                <p>C3STREAM Land Designs | Oct 2021 - Mar 2023 | Tamil Nadu, India</p>
-                <ul>
-                    <li>Served as a Python Trainer and Software Tester for Aura Semiconductor Pvt. Ltd.</li>
-                    <li>Developed and maintained a full-stack website using Python Flask.</li>
-                    <li>Conducted software testing and contributed to STEM education initiatives.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Python Developer</h3>
-                <p>Quilt.AI | Dec 2019 - Sep 2021 | Remote (Tamil Nadu, India)</p>
-                <ul>
-                    <li>Developed backend solutions using FastAPI and performed ETL production support.</li>
-                    <li>Conducted web scraping and data processing using Beautiful Soup (BS4) and Pandas.</li>
-                    <li>Built and maintained API endpoints, integrating with MySQL, MongoDB, and GCP (BigQuery, Compute Engine).</li>
-                </ul>
+            <div class="experience-grid">
+                <div class="job">
+                    <h3>Software Engineer (Automation Test Architect)</h3>
+                    <p>Lennox India | Mar 2024 - Present</p>
+                    <ul>
+                        <li>Designed automation testing solutions using Selenium and Appium.</li>
+                        <li>Integrated tests into CI/CD pipelines.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Full Stack Engineer</h3>
+                    <p>Cinch | Nov 2023 - Jan 2024</p>
+                    <ul>
+                        <li>Developed FastAPI backend for fintech platforms.</li>
+                        <li>Collaborated on Samsung project.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Lead Software Engineer</h3>
+                    <p>Meyi Cloud | Apr 2023 - Nov 2023</p>
+                    <ul>
+                        <li>Led backend development with FastAPI and AWS.</li>
+                        <li>Managed PostgreSQL and DynamoDB.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -107,8 +95,8 @@
     <section id="education" class="section">
         <div class="container">
             <h2>Education</h2>
-            <p><strong>Bachelor of Engineering (BE)</strong> in Electrical, Electronics, and Communications Engineering<br>Sri Aravindar Engineering College | Aug 2014 - Jun 2018 | CGPA: 7.2</p>
-            <p><strong>High School Education</strong> in Computer Science<br>Seventh Day Adventist Higher Secondary School | Jun 2012 - May 2014 | Grade: 66.41%</p>
+            <p><strong>B.E. in Electrical, Electronics, and Communications</strong><br>Sri Aravindar Engineering College | 2014 - 2018 | CGPA: 7.2</p>
+            <p><strong>High School in Computer Science</strong><br>Seventh Day Adventist | 2012 - 2014 | 66.41%</p>
         </div>
     </section>
 
@@ -117,11 +105,9 @@
         <div class="container">
             <h2>Certifications</h2>
             <ul>
-                <li><strong>AWS S3 Basics</strong> – Coursera (Issued Apr 2023) | Credential ID: JTPS5PKL8FXX</li>
-                <li><strong>Troubleshooting and Debugging Techniques</strong> – Google (Issued Apr 2023) | Credential ID: AZNGVGM5JEDX</li>
-                <li><strong>Data Analysis with Python: Zero to Pandas</strong> – Jovian</li>
-                <li><strong>Crash Course on Python</strong> – Google</li>
-                <li><strong>Build a Face Recognition Application using Python</strong> – GUVI Geek Networks, IITM Research Park</li>
+                <li><strong>AWS S3 Basics</strong> – Coursera (Apr 2023)</li>
+                <li><strong>Troubleshooting Techniques</strong> – Google (Apr 2023)</li>
+                <li><strong>Data Analysis with Python</strong> – Jovian</li>
             </ul>
         </div>
     </section>
@@ -131,10 +117,9 @@
         <div class="container">
             <h2>Key Achievements</h2>
             <ul>
-                <li>Successfully led backend development for Plant365, improving system efficiency by 25%.</li>
-                <li>Automated testing processes at Lennox India, reducing manual testing efforts by 40%.</li>
-                <li>Developed and deployed a full-stack website using Flask at C3STREAM Land Designs, enhancing user engagement by 30%.</li>
-                <li>Built scalable APIs and ETL pipelines at Quilt.AI, enabling seamless data processing and analysis.</li>
+                <li>Led Plant365 backend, improving efficiency by 25%.</li>
+                <li>Automated testing at Lennox, reducing effort by 40%.</li>
+                <li>Built scalable APIs at Quilt.AI.</li>
             </ul>
         </div>
     </section>
@@ -146,8 +131,7 @@
             <p>Email: <a href="mailto:prabaharan.nagappan@gmail.com">prabaharan.nagappan@gmail.com</a></p>
             <p>Phone: +91 8525055538</p>
             <p>LinkedIn: <a href="https://linkedin.com/in/n-prabaharan/" target="_blank">linkedin.com/in/n-prabaharan/</a></p>
-            <h3>Send a Message</h3>
-            <form action="https://formspree.io/f/xwpvdple" method="POST">
+            <form id="contact-form" action="https://formspree.io/f/xwpvdple" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -158,6 +142,9 @@
             </form>
         </div>
     </section>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
 
     <!-- Back-to-Top Button -->
     <button id="back-to-top" title="Back to Top">↑</button>
